@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Bilhete Dourado</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Partículas -->
+  <div class="particles"></div>
+
+  <!-- Conteúdo principal -->
+  <main class="container">
+
+    <h2 class="subtitle">
+      Parabéns aventureiro...
+    </h2>
+
+    <h1 class="title">
+      Você encontrou o
+      <span>Bilhete Dourado</span>
+    </h1>
+
+    <p class="description">
+      Willy Wonka escolheu você para receber a recompensa secreta da fábrica.
+    </p>
+
+    <!-- Botão -->
+    <button id="revealBtn">
+      Revelar Meu Destino
+    </button>
+
+    <!-- Ticket -->
+    <section class="ticket hidden" id="ticket">
+
+      <div class="ticket-glow"></div>
+
+      <div class="ticket-content">
+
+        <p class="gold-text">BILHETE PREMIADO</p>
+
+        <h2>🍫 Golden Ticket 🍫</h2>
+
+        <p class="ticket-message">
+          Apresente este bilhete para retirar sua recompensa especial.
+        </p>
+
+        <div class="reward">
+          🍫 Barra de Chocolate Premiada 🍫
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Música -->
+  <audio id="magicSound">
+    <source src="audio/magic.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Confetes -->
+  <canvas id="confetti"></canvas>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
