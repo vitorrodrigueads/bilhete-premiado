@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -14,6 +15,7 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- Partículas -->
@@ -40,6 +42,21 @@
       Revelar Meu Destino
     </button>
 
+    <!-- LOADING -->
+    <section class="loading hidden" id="loading">
+
+      <p id="loadingText">
+        Validando bilhete dourado...
+      </p>
+
+      <div class="loading-bar">
+
+        <div class="loading-progress" id="progress"></div>
+
+      </div>
+
+    </section>
+
     <!-- Ticket -->
     <section class="ticket hidden" id="ticket">
 
@@ -47,9 +64,13 @@
 
       <div class="ticket-content">
 
-        <p class="gold-text">BILHETE PREMIADO</p>
+        <p class="gold-text">
+          BILHETE PREMIADO
+        </p>
 
-        <h2>🍫 Golden Ticket 🍫</h2>
+        <h2>
+          🍫 Golden Ticket 🍫
+        </h2>
 
         <p class="ticket-message">
           Apresente este bilhete para retirar sua recompensa especial.
@@ -67,7 +88,9 @@
 
   <!-- Música -->
   <audio id="magicSound">
+
     <source src="audio/magic.mp3" type="audio/mpeg">
+
   </audio>
 
   <!-- Confetes -->
@@ -76,4 +99,5 @@
   <script src="script.js"></script>
 
 </body>
+
 </html>
